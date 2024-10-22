@@ -1,0 +1,40 @@
+# Integers
+# An integer is a whole number that can be positive, negative, or zero.
+# Integers do not include fractions or decimals.
+# You can add, subtract, divide, and multiply integers in Python.
+
+# Basic integer operations
+print(1 + 1)  # Outputs: 2
+print(1 - 0)  # Outputs: 1
+print(6 * 3)  # Outputs: 18
+print(6 / 6)  # Outputs: 1.0 (note: division returns a float)
+
+# Floats
+# Floats are numbers with a decimal point, such as:
+# 1.0, 12.34, 567.89, 1000.123
+
+# The term "float" is short for "floating-point," indicating that the decimal point can move.
+# Examples:
+print(1.2345 * 1)    # Outputs: 1.2345
+print(1.2345 * 10)   # Outputs: 12.345
+print(1.2345 * 100)  # Outputs: 123.45
+print(1.2345 * 1000) # Outputs: 1234.5
+
+# Division
+# In Python, division returns floats to provide accurate results, especially when the result is not a whole number.
+
+# Floating-Point Division: Using the `/` operator performs floating-point division.
+result_float = 6 / 2  # result is 3.0 (a float)
+print(result_float)
+
+# Integer Division: Use the `//` operator for integer division (quotient without remainder).
+result_integer = 6 // 2  # result is 3 (an integer)
+print(result_integer)
+
+# Consistency: Returning floats by default helps avoid confusion and ensures consistent behavior for division.
+
+
+
+# #EXERCISE
+# # Use addition, subtraction, multiplication and division to print integers.
+# # Division results will always return a decimal point
