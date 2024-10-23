@@ -33,8 +33,35 @@ print(result_integer)
 
 # Consistency: Returning floats by default helps avoid confusion and ensures consistent behavior for division.
 
+# Please note that your answer may occasionally include an arbitrary number of decimal places.
+# For example:
+# 0.1 + 0.2 = 0.30000000000000004
+# This is common in all programming languages so do not be alarmed. Just ignore the extra decimal places for now.
 
 
-# #EXERCISE
-# # Use addition, subtraction, multiplication and division to print integers.
-# # Division results will always return a decimal point
+# Order of Operations
+
+# Python follows a specific order of operations when evaluating mathematical expressions.
+# This set of rules determines the correct sequence for calculations, which can be remembered using the acronym PEMDAS:
+
+# P - Parentheses: Solve expressions within parentheses first.
+# E - Exponents: Next, calculate powers and square roots.
+# MD - Multiplication and Division: Perform these operations from left to right.
+# AS - Addition and Subtraction: Finally, process these operations from left to right.
+
+# You can combine multiple operations in a single expression. For example, consider the expression:
+# 3 + 6 * (5 + 4) / 3**2 - 7
+
+# Here's how to evaluate it step-by-step:
+# 1. Parentheses: 5 + 4 = 9
+# 2. Exponents: 3**2 = 9
+# 3. Multiplication/Division:
+#    - 6 * 9 = 54
+#    - 54 / 9 = 6
+# 4. Addition/Subtraction: 3 + 6 - 7 = 2
+
+# The final answer is 2.
+
+# Note: The spacing in this example does not impact how Python evaluates the expression.
+# It simply improves readability, making it easier to identify the priority of operations in the code.
+
